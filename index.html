@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+   <link rel="stylesheet" href="estilosAM.css">
+  <title>PRESENTABLES</title>
+  <style>
+    /* Diseño sencillo con barras laterales */
+    :root{--accent:#5ea529}
+    body{font-family:Arial, sans-serif;margin:0;background:#192e03;color:#ffffff}
+    .layout{display:grid;grid-template-columns:200px 1fr 180px;gap:16px;max-width:1100px;margin:24px auto;padding:0 16px}
+    @media (max-width:900px){.layout{grid-template-columns:1fr;}}
+    header{grid-column:1/-1;background:var(--accent);color:#ffffff;padding:12px;border-radius:8px;text-align:center}
+    aside{background:#fffffe;padding:12px;border-radius:8px;box-shadow:0 2px 6px rgba(131, 16, 146, 0)}
+    main{background:#fff;padding:16px;border-radius:8px;box-shadow:0 2px 6px rgba(0,0,0,0.06)}
+    img,video{max-width:100%;border-radius:6px;display:block;margin:8px auto}
+    .btn{display:inline-block;padding:8px 12px;background:var(--accent);color:#fff;text-decoration:none;border-radius:6px;margin-top:8px}
+    nav a{display:block;color:var(--accent);text-decoration:none;margin:6px 0}
+    footer{grid-column:1/-1;text-align:center;margin-top:12px;color:#57ad2f;font-size:13px}
+  </style>
+</head>
+<body>
+  
+  <div class="layout">
+    <header>
+      <h1> EL ADULTO MAYOR EN LA SOCIEDAD ACTUAL </h1>
+    </header>
+
+    <aside aria-label="Barra lateral izquierda">
+      <h3>Menú</h3>
+      <nav>
+        <a href="#resumen">Resumen</a>
+        <a href="#palabras">Palabras clave</a>
+         <a href="#imagen">Imagen</a>
+        <a href="#1">El adulto mayor</a>
+        <a href="AM2.html">Tabla</a>
+        <a href="AM3.html">Video</a>
+      </nav>
+      <hr>
+      <p style="font-size:13px;color:#555">.................</p>
+       <h2>......</h2>
+       <img src="adulto2.jpg">
+    
+    </aside>
+
+    <main>
+    <section id="resumen">
+    <h1>Resumen</h1>
+    <p>El interés de hacer este estudio, parte posteriormente al haber escuchado las diferentes ponencias de los
+programas que se están llevando en países latinoamericanos y europeos, especialmente en España para
+atender la población que se encuentra en la etapa de envejecimiento. Como es bien sabido el ser humano
+tiene varias etapas durante su ciclo de vida que se inicia desde el momento mismo de su nacimiento, hasta
+llegar al envejecimiento; que no es otra cosa que las alteraciones en el organismo, producida por el paso del
+tiempo, que conducen a pérdidas funcionales y a su vez a la muerte. Desde esta perspectiva examinaremos
+los distintos ámbitos sobre la situación social económica y política del adulto mayor.</p>
+</section>
+<section id="palabras">
+    <h1>Palabras Clave</h1>
+    <p>Adulto mayor, derechos, situación, protección, familia, abandono.</p>
+</section>
+     
+ <section id="imagen">
+        <h2>Imagen</h2>
+        <img src="adulto1.jpg" alt="Imagen Adulto" width="300 alt="Imagen ciudadana">
+      </section>
+     
+
+      <section id="1">
+        <h1>EL ADULTO MAYOR</h1>
+         <p>Las personas mayores de 62 años son las
+consideradas adultos mayores, que por
+algunos son señalados como ancianos, (
+vejestorios) en realidad cuándo se comienza
+a envejecer, Platón decía se resalta la idea
+de que se envejece como se ha vivido y la
+importancia de cómo ha de prepararse para la
+vejez en la juventud vista siempre desde una
+manera positiva. Por el contrario Aristóteles
+consideraba la vejez como una enfermedad
+natural etapa e la que se llega al deterioro y
+a la ruina.</p>
+      </section>
+    </main>
+
+    <aside aria-label="Barra lateral derecha">
+      <h3>Importancia de los adultos mayores en la sociedad</h3>
+      <p style="font-size:14px;margin:6px 0"></p>
+      <p style="font-size:13px;color:#1a5e09">Los adultos mayores representan una parte fundamental de la sociedad. Su experiencia, valores y conocimientos aportan una visión amplia del mundo que ayuda a las nuevas generaciones a aprender, reflexionar y crecer. Además, son un vínculo con la historia familiar, cultural y social de cada comunidad.</p>
+      <hr>
+      <h3>Su papel dentro de la comunidad</h3>
+      <p style="font-size:13px;color:#1a5e09">Conservan tradiciones y valores familiares.
+
+Son ejemplos de resiliencia, trabajo y disciplina.
+
+Contribuyen al cuidado de nietos y apoyo en la familia.
+
+Pueden participar activamente en actividades comunitarias, cultura, talleres o voluntariados.</p>
+    </aside>
+    
+  </div>
+</body>
+</html>
